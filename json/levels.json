@@ -1,0 +1,31 @@
+{
+    "[SANITY]":{
+        "SOURCE": "[ Source: https://gist.github.com/apolloclark/6cffb33f179cc9162d0a ]",
+        "HINT": "[ Hint: Buffer Overflow ]",
+        "SOLUTION": "[ Solution: Buffer boundaries end at about 133 symbols (write A 133 times) ]"
+    },"[ANXIETY]":{
+        "SOURCE": "[ Source: https://www.geeksforgeeks.org/vulnerability-in-str-format-in-python/ ]",
+        "HINT": "[ Hint: String Format Vulnerability ]",
+        "SOLUTION": "[ Solution: {len.__init__.__globals__[_]} ]"
+    },"[AGITATION]":{
+        "SOURCE": "[ Source: https://www.freecodecamp.org/news/crack-passwords-using-john-the-ripper-pentesting-tutorial/ ]",
+        "HINT": "[ Hint: Password Cracking with John The Ripper ]",
+        "SOLUTION": "[ Solution: john --format=raw-md5 --fork=2 --mask='?u?l?l?l?l?s?d?d' hash.txt ]"
+    },"[DISORIENTATION]":{
+        "SOURCE": "[ Source: https://medium.com/analytics-vidhya/python-library-hijacking-on-linux-with-examples-a31e6a9860c8 ]",
+        "HINT": "[ Hint: Python Library Hijacking, base64]",
+        "SOLUTION": "[ Solution: cp /srv/data/hijack.py ~; sudo /usr/bin/python3.11 /home/disorientation/hijack.py ]"
+    },"[DELUSION]":{
+        "SOURCE": "",
+        "HINT": "",
+        "SOLUTION": ""
+    },"[INSANE]":{
+        "SOURCE": "",
+        "HINT": "",
+        "SOLUTION": ""
+    },"[MAD]":{
+        "SOURCE": "",
+        "HINT": "",
+        "SOLUTION": ""
+    }
+}

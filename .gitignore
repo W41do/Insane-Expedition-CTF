@@ -1,0 +1,14 @@
+gitignore
+# .gitignore
+
+pems
+
+*.env
+
+howto
+how-to
+
+*test*
+Trash
+
+*.pdf

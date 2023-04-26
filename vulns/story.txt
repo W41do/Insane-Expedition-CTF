@@ -1,0 +1,101 @@
+Actions as root
+LEVEL 1 - 
+
+sudo nano BufferOverflow.c
+ - paste code from BufferOverflow.c
+sudo gcc -ggdb -m32 -fno-stack-protector -Wno-deprecated-declarations -z execstack -o BufferOverflow BufferOverflow.c
+sudo rm BufferOverflow.c
+sudo chmod 711
+
+LEVEL 2 - 
+
+sudo nano StrFormVuln.py
+sudo chmod StrFormVuln.py
+
+LEVEL 3 - 
+
+sudo echo -n "Panda-12" | md5sum | tr -d " -" > hash.txt
+sudo chmod 744 hash.txt
+
+append following commands in .zshrc
+
+    rm -f /home/agitation/.john/john.pot
+    rm -f /home/agitation/.zsh_history
+    rm -f /home/agitation/.john/john.log
+
+    printf "\033c"
+    echo " "
+    echo "  [ You have successfully defeated the watchman guardian of girls hash, his death alerted her to your schemes and she figured out the way ] "
+    echo "  [ to send the weeping angels after you, only way you can survive is to crack the hash you obtained before log into her account and      ] "
+    echo "  [ deactivate the angels, but you must make haste for each moment counts in this maddening game of life and death.                       ] "
+    echo " "
+
+LEVEL 4 - 
+
+sudo echo -n "CmRheSAxCkkganVzdCBkaXNjb3ZlcmVkIGFuIGFtYXppbmcgYW5kIG1hZ2ljYWwgcGxhY2UsIGl0IHNlZW1pbmdseSBoYXMgbm8gZW5kIGFuZCB0aGUgbW9yZSB5b3Ugc3RheSB0aGVyZSB0aGUgbW9yZSB1bmNvbWZvcnRhYmxlIHlvdSBhcmUsIGl0IGhhcyBtdXN0YXJkIHllbGxvdyB3YWxscyBpbmZpbml0ZSByb3dzIG9mIHR1YmUgbGlnaHRzLCBtYWRlIHVwIG9mIGVuZGxlc3MgY29ycmlkb3JzLCBzb21lIG9mIHRoZW0gYXJlIGRlYWQgZW5kcyBvdGhlcnMgbGVhZCBmb3J3YXJkIGVuZGxlc3NseSwgSSBzaG91bGQgcHJvYmFibHkgc2F5IHRoYXQgb25lIG1heSBvbmx5IGVudGVyIHRoaXMgcGxhY2Ugd2l0aCBzZWNyZXQga25vd2xlZGdlLCBJIHdpbGwgcGFzcyBpdCBoZXJlIGluIGNhc2UgSSBmb3JnZXQgaXQsIHRoZSBzZWNyZXQga25vd2xlZGdlIGlzIOKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkeKWkS4KCmRheSAxMQpJbSBzdXJlIG9mIGl0LCB0aGlzIHBsYWNlIHdpbGwgZHJpdmUgb25lIG1hZCBiaXQgYnkgYml0LCBvbmx5IGltYWdpbmluZyB3aGF0IHRoaXMgcGxhY2Ugd2lsbCBkbyB3aXRoIHNvbWVvbmUgb25seSBhZnRlciBmZXcgZGF5cyBtYWtlcyBtZSB0aW5nbGUgd2l0aCBhbnRpY2lwYXRpb24sIHNvbWUgdGVzdCBzdWJqZWN0cyBhcmUgcmVxdWlyZWQuCgpkYXkgMjcKaGFoYWhhaGEgSSB3YXMgbm90IHN1cmUgYmVmb3JlIGJ1dCB0aGlzIHBsYWNlIGlzIEhFQVZFTi4uLiB3ZWxsIGhlYXZlbiBmb3IgbWUgaGVsbCBmb3IgdGhvc2UgcG9vciBzb3VscyBJIHN0cmFuZGVkIGhlcmUsIG9ubHkgYWZ0ZXIgZmV3IGRheSBzZXZlcmFsIG9mIHRoZW0gYXJlIG9uIHRoZSAgdmVyZ2Ugb2YgbWVudGFsIGJyZWFrZG93biwgaG93IGV4aGlsYXJhdGluZyBpdCBpcyB0byBzZWUgdGhlbSBkYW5jaW5nIG9uIHRoZSBlZGdlIGJldHdlZW4gc2FuaXR5IGFuZCBtYWRuZXNzLCB3aXRoIGp1c3QgYSBsaXR0bGUgcHVzaCB0aGVpciB3aWxsIHdpbGwgY3J1bWJsZSBpbnRvIGR1c3QsIGkgYW50aWNpcGF0ZSB0aGF0IG1vbWVudCB3aXRoIGJhdGhlZCBicmVhdGggCgouLi4K" > secret
+sudo chmod 400 secret
+
+append following commands in .zshrc
+
+    rm -f /home/disorientation/.zsh_history
+    rm -f /home/disorientation/*.py
+    rm -f /home/disorientation/*.txt
+
+    printf "\033c"
+
+    echo " "
+    echo "  [ You have successfully cracked her password and deactivated the weeping angels. Now you have access to her system, but it is encrypted. ] "
+    echo "  [ However, you have discovered that the system is vulnerable. Your task is to use Python Library Hijacking to decode the file named      ] "
+    echo "  [ 'secret' owned by root in this home directory, and obtain her most confidential information.                                           ] "
+    echo " "
+
+
+
+
+
+
+SPOILERS:
+
+You have arrived at the OBHAJOBA PROJEKTU station and realized that you have forgotten your ISIC card for entry into the building.
+You don't have time to go back to the PURKYNOVY dorms and the project defense starts in 5 minutes. So you thought of trying to guess the entry code for the building.
+You only have 5 minutes, so hurry up or you'll get 0 points for the project.
+
+
+You received 0 points from the project due to plagiarism. You found out that the girl stole the project from you. You decided
+to ruin her future. It occurred to you to obtain the hash of her encrypted password, which is hidden in the tower guarded
+by Professor Watchman. You plan to kill Professor Watchman with a secret spell that you must guess to obtain the hash.
+
+
+The Weeping Angels are statues frozen in time, but when you turn your back on them, they come to life with lightning speed. Their
+faces twist into terrifying grimaces as they move in for the kill, with sharp claws poised to grab hold of their unsuspecting prey.
+Beware the Weeping Angels, for if they catch you, they'll send you back in time, leaving you stranded in a bygone era, unable to
+return to your own time. Always watchful and waiting for their next victim, the Weeping Angels are one of the deadliest creatures.
+
+
+You have successfully defeated the watchman guardian of girls hash, his death alerted her to your schemes and she figured out the way
+to send the weeping angels after you, only way you can survive is to crack the hash you obtained before log into her account and
+deactivate the angels, but you must make haste for each moment counts in this maddening game of life and death.
+
+
+If you're not careful and you noclip out of reality in the wrong areas, you'll end up in the Backrooms, where it's nothing
+but the stink of old moist carpet, the madness of mono-yellow, the endless background noise of fluorescent lights at maximum
+hum-buzz, and approximately six hundred million square miles of randomly segmented empty rooms to be trapped in
+God save you if you hear something wandering around nearby, because it sure as hell has heard you
+
+
+You have successfully cracked her password and deactivated the weeping angels. Now you have access to her system, but it is encrypted.
+However, you have discovered that the system is vulnerable. Your task is to use Python Library Hijacking to decode the file named
+'secret' owned by root in this home directory, and obtain her most confidential information. 
+
+HER SECRET:
+
+day 1
+I just discovered an amazing and magical place, it seemingly has no end and the more you stay there the more uncomfortable you are, it has mustard yellow walls infinite rows of tube lights, made up of endless corridors, some of them are dead ends others lead forward endlessly, I should probably say that one may only enter this place with secret knowledge, I will pass it here in case I forget it, the secret knowledge is ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░.
+
+day 11
+Im sure of it, this place will drive one mad bit by bit, only imagining what this place will do with someone only after few days makes me tingle with anticipation, some test subjects are required.
+
+day 27
+hahahaha I was not sure before but this place is HEAVEN... well heaven for me hell for those poor souls I stranded here, only after few day several of them are on the  verge of mental breakdown, how exhilarating it is to see them dancing on the edge between sanity and madness, with just a little push their will will crumble into dust, i anticipate that moment with bathed breath 
+
+...
