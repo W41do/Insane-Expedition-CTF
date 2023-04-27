@@ -1,11 +1,33 @@
 Actions as root
 LEVEL 1 - 
 
+su kali # (root)
+useradd -m sanity
+passwd sanity
+chsh -s /bin/zsh sanity
+
+su sanity
+ssh-keygen -b 4096 -t rsa -m PEM
+cat .ssh/id_rsa.pub >> .ssh/authorized_keys
+cat .ssh/id_rsa
+[copy and paste in sanity.pem]
+
 sudo nano BufferOverflow.c
  - paste code from BufferOverflow.c
 sudo gcc -ggdb -m32 -fno-stack-protector -Wno-deprecated-declarations -z execstack -o BufferOverflow BufferOverflow.c
 sudo rm BufferOverflow.c
 sudo chmod 711
+
+Buffer Overflow
+compile on windows
+```
+gcc .\BufferOverflow.c -o BufferOverflow
+```
+
+compile on linux
+```
+sudo gcc -ggdb -m32 -fno-stack-protector -Wno-deprecated-declarations -z execstack -o BufferOverflow BufferOverflow.c
+```
 
 LEVEL 2 - 
 

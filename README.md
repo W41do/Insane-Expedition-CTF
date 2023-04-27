@@ -3,14 +3,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
+  <picture>
   <img src="https://raw.githubusercontent.com/W41do/Insane-Expedition-CTF/master/assets/logo_transparent.png" alt="Logo" width="">
+  </picture>
 
   <h3 align="center"><strong>« Insane Expedition »</strong></h3>
   <h4 align="center"><strong>« Capture The Flag »</strong></h3>
 
   <p align="center">
-    <!-- <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><strong>« Game on Steam »</strong></a>
-    <br /> -->
     <br />
     <a href="TODO"> « TODO »</a> · <a href="TODO">« Documentation »</a> · <a href="TODO">« TODO » </a>
   </p>
@@ -114,31 +114,29 @@ python3 Main.py
 
 > **NOTE:** If you are experiencing `private key are too open` error, see this: https://superuser.com/questions/1296024/windows-ssh-permissions-for-private-key-are-too-open
 
+## **ABOUT THIS PROJECT**
 
-# **WARNING**
+This project aimed to familiarize oneself with the basics of software vulnerabilities and their exploitation. The goal of the project was to study and practically demonstrate selected software vulnerabilities.
 
-## The content below has not been properly edited yet
----
+The goal of this project was to implement a vulnerable application containing at least three software vulnerabilities. Both low-level and high-level vulnerabilities could be combined, as listed below:
 
-Buffer Overflow
-compile on windows
-```
-gcc .\BufferOverflow.c -o BufferOverflow
-```
+ - Low level:
 
-compile on linux
-```
-sudo gcc -ggdb -m32 -fno-stack-protector -Wno-deprecated-declarations -z execstack -o BufferOverflow BufferOverflow.c
-```
+    - Integer overflow, Stack overflow, String format
 
-### SANITY
-su kali # (root)
-useradd -m sanity
-passwd sanity
-chsh -s /bin/zsh sanity
+    - Heap overflow, ROP (Return-Oriented Programming) (advanced)
+  
+  - High level:
 
-su sanity
-ssh-keygen -b 4096 -t rsa -m PEM
-cat .ssh/id_rsa.pub >> .ssh/authorized_keys
-cat .ssh/id_rsa
-[copy and paste in sanity.pem]
+    - Path hijacking
+    
+    - SUID/GUID permissions
+    
+    - SUDO misconfiguration (find, cat, more, etc.)
+    
+    - Python library hijacking (https://medium.com/analytics-vidhya/python-library-hijacking-on-linux-with-examples-a31e6a9860c8)
+    
+    - Linux capabilities (getcap), Cron + weak permissions (https://hackmag.com/security/linux-privileges-escalation/)
+    - Password extracting / Password cracking
+
+The output of the project was expected to be a custom application written in any programming language, incorporating the selected vulnerabilities. By exploiting this application, it should be possible to compromise it, i.e., alter its behavior, overwrite its data, access sensitive information, execute custom code (reverse shell, shell, etc.). Additionally, with a poorly configured operating system, it would be possible to compromise the entire OS. The individual exploitations had to be interconnected. Furthermore, it could be an application representing a game for learning exploitation, where the player had to exploit a specific vulnerability to progress to the next level. The semester project had to implement at least three selected vulnerabilities, including at least one from the Low level category. However, the more vulnerabilities were implemented, the better.
